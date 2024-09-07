@@ -3,40 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./output.css">
+
+    <!-- Normal Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Decorative Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
     <title>Inteo</title>
 </head>
-<body>
+<body class="font-outfit max-w-1440 my-0 mx-auto">
     <header>
         <div>
-            <div>
+            <div class="flex justify-between items-center py-5 px-112">
                 <div>
                     <a href="#">
                         <img src="./img/Logo-inteo.svg" alt="logo">
                     </a>
                 </div>
 
-                <nav>
-                    <ul class="">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Our Work</a></li>
-                    </ul>
-                </nav>
-
-                <div>
-                    <button>contact us</button>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>
+                <div class="flex gap-4 items-center">
+                    <nav>
+                        <ul class="flex gap-4 text-sm font-medium">
+                            <li><a href="" class="hover:underline underline-offset-4">About</a></li>
+                            <li><a href="" class="hover:underline underline-offset-4">Services</a></li>
+                            <li><a href="" class="hover:underline underline-offset-4">Our Work</a></li>
+                        </ul>
+                    </nav>
+    
+                    <div class="flex gap-1 py-3 px-5 bg-primary-600 text-white">
+                        <button class="uppercase text-xs font-semibold">contact us</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
                 </div>
             </div>
 
             <!-- Hero -->
-            <div>
-                <div>
-                    <h1>Make <span>your home</span> an ode to joy</h1>
-                    <p>We turn your empty house to a lovely home, making the compact spaces  with sapce saving furnitures. Making the unique tastes of yours into reality! </p>
+            <div class="flex flex-col items-center mt-20">
+                <div class="text-center px-112">
+                    <h1 class="font-playfair text-6xl font-medium mb-6 text-neutral-900">Make <span class="italic">your home</span> an ode to joy</h1>
+                    <p class="max-w-[800px] mb-10 text-xl font-light text-neutral-700">We turn your empty house to a lovely home, making the compact spaces  with sapce saving furnitures. Making the unique tastes of yours into reality! </p>
                 </div>
 
                 <div>

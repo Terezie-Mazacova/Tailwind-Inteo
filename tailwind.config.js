@@ -17,10 +17,6 @@ module.exports = {
       maxWidth: {
         '1440' : '1440px',
       },
-
-      padding: {
-        '112' : '112px'
-      },
     },
   },
   plugins: [],

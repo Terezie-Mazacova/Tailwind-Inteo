@@ -2,6 +2,11 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    screens: {
+      'sm' : {'max': '767px'},
+      'md' : {'min': '768px', 'max': '1023px'},
+    },
+
     fontFamily: {
       playfair: ['Playfair Display', 'serif'],
       outfit: ['Outfit', 'sans-serif'],

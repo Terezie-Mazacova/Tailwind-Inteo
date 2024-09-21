@@ -7,6 +7,7 @@ module.exports = {
       'md' : {'min' : '320px', 'max': '1023px'},
       'lg' : {'min': '768px', 'max': '1023px'},
       'xl' : {'min' : '1024px'},
+      '2xl' : {'min': '1024px', 'max': '1439px'}
     },
 
     fontFamily: {

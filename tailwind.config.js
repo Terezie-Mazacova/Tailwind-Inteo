@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     screens: {
       'sm' : {'max': '767px'},
-      'md' : {'min': '768px', 'max': '1023px'},
+      'md' : {'min' : '320px', 'max': '1023px'},
+      'lg' : {'min': '768px', 'max': '1023px'},
+      'xl' : {'min' : '1024px'},
     },
 
     fontFamily: {
